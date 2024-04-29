@@ -1,0 +1,36 @@
+.nav_bar{
+  display: flex;
+  position: relative;
+}
+
+.nav_bar_logo_container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav_bar_logo {
+  width: 100px;
+  cursor: pointer;
+}
+
+.nav_items_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nav_items_container > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.nav_item {
+  line-height: 60px;
+  color: white;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  cursor: pointer;
+}

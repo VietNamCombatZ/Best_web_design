@@ -1,0 +1,96 @@
+/* body{
+    height:100vh;
+    background: linear-gradient(purple, yellow
+    );
+} */
+
+li {
+  font-size: 22px;
+  font-weight: 600;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.home_page {
+    z-index: -1;
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, darkorchid, yellow);
+}
+
+
+
+.start_logo_container {
+  /* position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    /* margin: auto; */
+}
+
+.start_button_container {
+  /* display: flex;
+
+  justify-content: center;
+  align-items: center; */
+  /* z-index: ; */
+  /* content: "Start"; */
+  display: flex;
+  /* place-items: center; */
+  /* justify-content: center; */
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  box-sizing: content-box;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /* border: 2px solid purple; */
+  cursor: pointer;
+  background-color: darkorchid;
+}
+
+.start_button_title {
+
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  position: absolute;
+}
+
+.start_button_overlay{
+    position: absolute;
+    top: 0;
+    z-index:-2;
+    content: "";
+
+    display: grid;
+  place-items: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+
+    
+    height: 100% ;
+    width: 100%;
+    background-color:mediumpurple;
+    border-radius: 50%;
+
+    animation: pulseAnimation 2s ease-out infinite ;
+}
+
+@keyframes pulseAnimation {
+    100%{
+         transform: scale(1.5);
+         opacity: 0;
+    }
+    
+}
